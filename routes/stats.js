@@ -43,6 +43,8 @@ const createStats = async (req, res, next) => {
         wins: req.body.wins,
         losses: req.body.losses,
         points_scored: req.body.points_scored,
+        nom :req.body.nom,
+        surnom : req.body.surnom,
       };
       stats.push(newStats);
       fs.writeFileSync(statsFilePath, JSON.stringify(stats));
@@ -75,6 +77,8 @@ const createStats = async (req, res, next) => {
             wins: req.body.wins,
             losses: req.body.losses,
             points_scored: req.body.points_scored,
+            nom :req.body.nom,
+            surnom : req.body.surnom,
           };
           const newStats = stats.map(player => {
             if (player.id === Number(req.params.id)) {
