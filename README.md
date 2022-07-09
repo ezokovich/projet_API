@@ -21,8 +21,7 @@ this document is a simple documentation of the API.
 
 
 ### Endpoints
-Endpoints with literal and readable URLs is what makes an API great. To make it easy and convenient for you, we've specified how you should do it. You don't have to worry about whether you should use the plural or ":" anymore...
-
+Endpoints with literal and readable URLs is what makes an API great. To make it easy and convenient for you, we've specified how you should do it.
 
 
 ### request-methods
@@ -69,7 +68,7 @@ Now that we’ve learned about  the different request methods that we should use
 https://fathomless-depths-63942.herokuapp.com/api/v1/stats/10
 ```
 
-
+` the result is ` 
 
 ```
 
@@ -93,6 +92,7 @@ https://fathomless-depths-63942.herokuapp.com/api/v1/stats/10
 https://fathomless-depths-63942.herokuapp.com/api/v1/stats
 ```
 
+` the new post you want to send ` 
 
 ```
 
@@ -115,6 +115,8 @@ https://fathomless-depths-63942.herokuapp.com/api/v1/stats
 https://fathomless-depths-63942.herokuapp.com/api/v1/stats/20
 ```
 
+` you do the modification that you want ` 
+
 ```
 
   {
@@ -130,6 +132,8 @@ https://fathomless-depths-63942.herokuapp.com/api/v1/stats/20
 *`DELETE` method : <br>
 
  -- Delete a post with id = 20
+ 
+ ` the answers if the post is delete succesfuly  ` 
  
  ```
  
